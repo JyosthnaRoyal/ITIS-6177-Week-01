@@ -2,12 +2,13 @@
   "name": "itis-6177-week-01",
   "version": "1.0.0",
   "description": "nodejs server using express",
-  "main": "Message.js",
+  "main": "expressserver.js",
   "engines": {
     "node": ">=10"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node expressserver.js"
   },
   "repository": {
     "type": "git",
